@@ -27,3 +27,7 @@ footer{
     text-align:center;
     text-decoration: underline;
 }
+
+a:link{
+    color: blueviolet;
+}
