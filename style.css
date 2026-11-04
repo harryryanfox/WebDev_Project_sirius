@@ -21,6 +21,7 @@ img{
 
 body{
     background-color:cadetblue;
+    background-image:url("Pile_livres_rouges.jpg");
 }
 
 footer{
@@ -31,4 +32,17 @@ footer{
 a:link{
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#paragraphstyle{
+    font-family:monospace;
+    font-size:large;
+    color:ghostwhite
+}
+
+#headerstyle{
+    border-width:20px;
+    border-color:white;
+    border-style:dashed;
+    border-radius:10px;
 }
