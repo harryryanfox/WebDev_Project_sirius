@@ -2,7 +2,7 @@ p {
     color: black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
+    font-size:20px;
 }
 
 #fontFamily{
@@ -34,7 +34,7 @@ footer{
 a:link{
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #paragraphstyle{
