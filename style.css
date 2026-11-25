@@ -52,4 +52,37 @@ footer{
     border-color:black;
     border-style:dashed;
     border-radius:10px;
+    transition: border-color 2s ease .2s;
+}
+
+#headerstyle:hover{
+    border-color:blue;
+}
+
+.container{
+    display:flex;
+    flex-wrap:nowrap;
+    width:100%;
+    margin:auto;
+}
+
+.container img{
+    width:100%;
+    margin:1vw;
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+.container p{
+    width:100%;
+    text-align:left;
+    font-size:20px;
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+@media only screen and (maxwidth:600px){
+    .container{
+        flex-direction:column;
+    }
 }
