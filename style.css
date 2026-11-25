@@ -35,11 +35,11 @@ footer{
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    transition: font-size 2s ease .2s;
+    transition: font-size .3s ease .2s;
 }
 
 #link:hover{
-    font-size:40px;
+    font-size:25px;
 }
 
 #paragraphstyle{
@@ -93,13 +93,13 @@ footer{
     }
 }
 
-@media screen and (min-width:600px),(max-width:1024px){
+@media screen and (min-width:601px),(max-width:1024px){
     p{
         color:pink;
     }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1025px){
     p{
         color:black;
     }
