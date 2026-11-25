@@ -86,3 +86,21 @@ footer{
         flex-direction:column;
     }
 }
+
+@media screen and (max-width:600px){
+    p{
+        color:blue;
+    }
+}
+
+@media screen and (min-width:600px),(max-width:1024px){
+    p{
+        color:pink;
+    }
+}
+
+@media screen and (min-width:1024px){
+    p{
+        color:black;
+    }
+}
